@@ -1,4 +1,4 @@
-use test_env;
+use prod_db;
 insert into Roles(RoleName) values('Administrator');
 insert into Roles(RoleName) values('Merchandiser');
 insert into Roles(RoleName) values('Supervisor');
